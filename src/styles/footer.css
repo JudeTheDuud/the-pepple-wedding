@@ -1,0 +1,91 @@
+.footer-container{
+    
+    
+}
+
+
+.footer-wrapper{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+    height: 22rem;
+    width: 100%;
+    position: relative;
+}
+
+.sect1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    height: 80%;
+    position: relative;
+    width: 33%;
+  
+}
+
+.olliep{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.footer-hashtag{
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    
+}
+
+.rights{
+    margin-left: 2rem;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 80%;
+    align-items: center;
+}
+
+.contact{
+    margin-top: 3.2rem;
+    font-size: 1.7rem;
+}
+
+.footer-mail{
+    margin-top: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.sec3{
+    width: 33%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav{
+    height: 100%;
+}
+
+.footer-nav ul {
+    margin-top: 3rem;
+    height: 40%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.footer-nav ul a{
+    color: antiquewhite;
+    text-decoration: none;
+}

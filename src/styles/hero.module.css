@@ -1,0 +1,86 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 3rem;
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/pngs/img2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 40%;
+  object-fit: fill;
+  margin-bottom: 0.2rem;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem;
+  color: white;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(20px);
+  
+}
+
+.headerText {
+  font-family: "NoMark", sans-serif;
+  border: 1px white solid;
+  border-radius: 10px;
+  font-size: 3rem;
+  padding: 1rem;
+  border-bottom-style: none;
+  padding-bottom: 0;
+}
+.bridegroom {
+  font-size: 8rem;
+  font-family: "NoMark", sans-serif;
+  text-align: center;
+}
+
+.hashtag {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.4rem;
+  margin-top: 0;
+  padding: 0;
+}
+
+.dateContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 2rem;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.dateWrapper,
+.state {
+  font-weight: 500;
+  font-weight: bold;
+  color: black;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 3rem;
+}
+
+@media (max-width: 600px) {
+  .headerText {
+    font-size: 1.6rem;
+  }
+  .bridegroom {
+    font-size: 4.5rem;
+  }
+
+  .hashtag {
+    letter-spacing: 0.5rem;
+  }
+}

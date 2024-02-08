@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+.wrapper{
+    height: 65rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    position: relative;
+    top: -7rem;
+}
+
+.sec1,.sec2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.imgWrapper{
+    position: relative;
+    
+    
+}
+
+.img{
+    height: 735px;
+    width: 490px;
+    
+}
+
+
+.headerText, .para{
+    text-align: center;
+}
+
+.headerText{
+    font-family: 'Caudex', sans-serif;
+    font-size: 3.8rem;
+}
+
+.para{
+   font-size: 1rem;
+}
