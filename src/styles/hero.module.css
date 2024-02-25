@@ -4,7 +4,7 @@
   justify-content: center;
   margin: auto;
   padding-bottom: 3rem;
-  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/pngs/img2.jpg");
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/pngs/pw7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
@@ -20,8 +20,7 @@
   align-items: center;
   margin: 3rem;
   color: white;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(20px);
+ 
   
 }
 
@@ -33,11 +32,17 @@
   padding: 1rem;
   border-bottom-style: none;
   padding-bottom: 0;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .bridegroom {
   font-size: 8rem;
   font-family: "NoMark", sans-serif;
   text-align: center;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .hashtag {
@@ -46,6 +51,9 @@
   letter-spacing: 1.4rem;
   margin-top: 0;
   padding: 0;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .dateContainer {
@@ -83,4 +91,14 @@
   .hashtag {
     letter-spacing: 0.5rem;
   }
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

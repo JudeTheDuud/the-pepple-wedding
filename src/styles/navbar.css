@@ -87,7 +87,8 @@
     height: calc(100vh - 60px);
     transition: all 0.3s ease;
     overflow: hidden;
-     animation: fadeIn 5s; 
+     animation: fadeIn 5s;
+     z-index: 100000;
   }  
 
   .menu-icon{

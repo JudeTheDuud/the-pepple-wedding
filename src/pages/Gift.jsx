@@ -14,7 +14,7 @@ const Gift = () => {
             link below for more information.{" "}
           </p>
 
-          <button>Gift the Couple</button>
+          <button className={styles.giftButton}>Gift the Couple</button>
         </div>
       </div>
     </div>

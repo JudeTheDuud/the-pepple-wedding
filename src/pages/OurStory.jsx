@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/ourStory.module.css";
-import OllieP from '../assets/pngs/img5.jpg'
+import OllieP from '../assets/pngs/pw1.jpg'
 const OurStory = () => {
   return (
     <div className={styles.container}>

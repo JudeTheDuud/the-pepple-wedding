@@ -68,3 +68,24 @@
     vertical-align: middle;
     object-fit: cover;
 }
+
+
+@media  (max-width: 600px){
+    .wrapper{
+        flex-direction: column;
+    }
+
+    .dinner{
+        padding: 0;
+        width: 100%;
+        
+    }
+
+    .storyText{
+        width: 100%;
+    }
+
+    .storyFacts{
+        width: 100%;
+    }
+}

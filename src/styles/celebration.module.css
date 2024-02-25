@@ -1,4 +1,5 @@
 .container{
+    height: 40rem;
    background-color: rgb(0, 0, 0);
    width: 100%;
    color: white;
@@ -11,8 +12,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 36rem;
+    
+    height: 100%;
     width: 100%;
     position: relative;
 }
@@ -68,13 +69,76 @@
     font-size: 1.5rem;
     font-family: 'Caudex',sans-serif;
     word-spacing: 0.3rem;
+    width: 91%;
+    height: 20%;
 }
 
 .para{
     text-align: justify;
-    padding-right: 9rem;
+    width: 73%;
     word-spacing: 0.2rem;
     line-height: 1.8rem;
+    text-overflow: inherit;
+    height: 50%;
     
-    
+}
+
+@media  (max-width: 600px){
+    .container{
+        height: 70rem;
+    }
+    .wrapper{
+        flex-direction: column;
+        justify-content: normal;
+        height: 80%;
+    }
+
+    .date{
+        height: 20%;
+        margin-top: 4rem;
+        width: 81%;
+        text-align: center;
+    }
+
+
+    .ringWrap{
+        height: 20%;
+    }
+
+    .info{
+        height: 33%;
+        width: 81%;
+        justify-content: space-around;
+        row-gap: 0;
+    }
+
+    .infoHeader{
+        font-size: 1.3rem;
+        text-align: justify;
+        margin: 0;
+        height: 20%;
+        width: 100%;
+    }
+
+    .date h2{
+        font-size: 2rem;
+        margin:0
+    }
+
+    .date p{
+        margin:0;
+        text-align: center;
+        margin-top:2rem
+    }
+
+    .ring{
+        width: 4rem ;
+        height:4rem;
+        margin: 0;
+    }
+
+    .para{
+      padding-right: 0;
+      width: 100%;
+    }
 }

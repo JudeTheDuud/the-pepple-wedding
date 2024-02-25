@@ -21,11 +21,11 @@ const celebration = () => {
           <div className={styles.infoHeader}>
             We are delighted to invite you to <br /> the celebration of our marriage
           </div>
-          <div className={styles.para}>
+          <p className={styles.para}>
             Join us for the happiest day of our lives as Mickey & Ollie tie the
             knot! We can't wait to celebrate with you and share our love and
             joy. RSVP soon and let the party begin
-          </div>
+          </p>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/reception.module.css";
-import OllieP1 from "../assets/pngs/img1.jpg";
-import OllieP2 from "../assets/pngs/img4.jpg";
+import OllieP1 from "../assets/pngs/pw2.jpg";
+import OllieP2 from "../assets/pngs/pw3.jpg";
 
 const Reception = () => {
   return (
