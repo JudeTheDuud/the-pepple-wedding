@@ -55,3 +55,34 @@
     color: white;
     transition: all 0.3s;
 }
+
+
+@media  (max-width: 600px){
+    .container{
+        height:35rem;
+    }
+
+    .wrapper{
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gift{
+        width: 90%;
+    }
+
+
+    .gift div{
+        font-size: 2.5rem;
+    }
+
+    .gift p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    .giftButton{
+        height: 10%;
+    }
+}

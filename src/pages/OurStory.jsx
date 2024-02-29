@@ -11,8 +11,8 @@ const OurStory = () => {
             Story
           </div>
           <p className={styles.dinner}>
-            Take us out to dinner when we are in your <br /> city and we will entertain
-            you with every <br /> version of this beautiful love story😝
+            Take us out to dinner when we are in your city and we will entertain
+            you with every  version of this beautiful love story😝
           </p>
 
           <p className={styles.storyFacts}>

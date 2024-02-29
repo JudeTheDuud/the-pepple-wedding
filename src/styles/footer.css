@@ -1,6 +1,6 @@
 .footer-container{
-    
-    
+    background-color: black;
+
 }
 
 
@@ -18,8 +18,8 @@
 .sect1{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    
+    justify-content: start;
+    align-items: start;
     height: 80%;
     position: relative;
     width: 33%;
@@ -32,6 +32,7 @@
     line-height: 1.3rem;
     text-align: left;
     margin-left: 2rem;
+    margin-top: 4rem;
 }
 
 .footer-hashtag{
@@ -41,7 +42,11 @@
 }
 
 .rights{
-    margin-left: 2rem;
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+    height: 2rem;
 }
 
 .sec2{
@@ -88,4 +93,38 @@
 .footer-nav ul a{
     color: antiquewhite;
     text-decoration: none;
+}
+
+
+@media (max-width:600px){
+    .footer-wrapper{
+        height: 40rem;
+    }
+    .footer-wrapper{
+        flex-direction: column;
+    }
+
+    .sect1{
+        width: 100%;
+        height: 28%;
+        justify-content: center;
+    }
+
+    .sec2{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .olliep{
+        margin: 0;
+        align-self: center;
+        font-size: 2rem;
+        ;
+    }
+
+    .footer-nav ul{
+        text-align: center;
+        padding: 0;
+    }
 }

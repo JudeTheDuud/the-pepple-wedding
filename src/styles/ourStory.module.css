@@ -31,9 +31,9 @@
 
 .dinner{
   text-align: justify;
-  padding-left: 9rem;
-  padding-right: 9rem;
+    white-space: wrap;
   width: 50%;
+  height: 20%;
   font-family: 'Caudex', sans-serif;
   font-size: 1.3rem;
   word-spacing: 0.0rem;
@@ -71,14 +71,33 @@
 
 
 @media  (max-width: 600px){
+    .container{
+        height: 54rem;
+    }
     .wrapper{
         flex-direction: column;
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+        margin: auto;        
     }
 
     .dinner{
         padding: 0;
-        width: 100%;
+        width: 90%;
+        font-size: 1.3rem;
+        white-space: wrap;
         
+    }
+
+    .storyImgWrapper{
+        width: 100%;
+    }
+
+    .storyImg{
+        height: 30rem;
+        width: 100%;
+    
     }
 
     .storyText{
@@ -86,6 +105,14 @@
     }
 
     .storyFacts{
-        width: 100%;
+        width: 90%;
+        margin-top: 4rem;
+    }
+
+    .storyText div{
+        font-size: 2rem;
+        margin-top: 2rem;
+        line-height: 1.8rem;
+        width: 90%;
     }
 }

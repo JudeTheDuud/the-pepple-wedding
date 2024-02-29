@@ -11,7 +11,7 @@ const footer = () => {
                     <span className='footer-hashtag'>#THEPEPPLEWEDDING</span>
                 </div>
 
-                <div className='rights'>&copy; 2023 <span>Mickey & Ollie</span></div>
+                
             </div>
 
 
@@ -35,6 +35,9 @@ const footer = () => {
                 </nav>
             </div>
         </div>
+
+        <div className='rights'>&copy; 2023 <span>Mickey & Ollie</span></div>
+        
         
     </div>
   )
