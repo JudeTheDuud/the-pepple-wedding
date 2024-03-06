@@ -85,7 +85,7 @@
 
 @media  (max-width: 600px){
     .container{
-        height: 70rem;
+        height: 60rem;
     }
     .wrapper{
         flex-direction: column;
