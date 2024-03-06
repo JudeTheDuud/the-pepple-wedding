@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     margin: auto;
-    height: 78rem;
+    height: 64rem;
     padding-top: 8rem;
 }
 
@@ -52,6 +52,9 @@
 
 
 @media  (max-width: 600px){
+    .container{
+        height: 78rem;
+    }
     .wrapper{
         flex-direction: column;
         align-items: center;
@@ -68,7 +71,5 @@
         font-size: 2.1rem;
     }
     
-    .sec1{
-        
-    }
+    
 }

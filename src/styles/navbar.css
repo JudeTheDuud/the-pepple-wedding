@@ -92,13 +92,13 @@
     height: 4rem;
     width: 100%;
     background-color: black;
-    transition: 0.7s;
+    
   }
 
 
   .hideNav{
     transform: translateY(-100%);
-    transition: 1s;
+    transition: 0.7s;
   }
 
   .navbar {

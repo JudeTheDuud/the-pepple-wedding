@@ -34,49 +34,53 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    if (scrollData.y > 800) {
+    if (scrollData.y === 0) {
       setshowNav(true);
-    } else {
-      setshowNav(false);
     }
-    
-    if (scrollData.y  < scrollData.lastY ) {
+
+    if (scrollData.y > 1500) {
       setshowNav(true);
     } else {
       setshowNav(false);
     }
 
-
+    if (scrollData.y > scrollData.lastY) {
+      setshowNav(true);
+    } else {
+      setshowNav(false);
+    }
   }, [scrollData]);
 
   return (
-    <div className={showNav ? 'nav' : 'hideNav'}>
-      <nav className="navbar">
-        <div className="container">
-          <div className="menu-icon" onClick={handleShowNavbar}>
-            <Ham className="ham" />
-          </div>
-          <div className="logo">JM</div>
+    <>
+      <div className={`nav ${showNav ? "nav hideNav" : "nav"}`}>
+        <nav className="navbar">
+          <div className="container">
+            <div className="menu-icon" onClick={handleShowNavbar}>
+              <Ham className="ham" />
+            </div>
+            <div className="logo">JM</div>
 
-          <div className={`navElements ${showNavbar && "active"}`}>
-            <ul>
-              <li>
-                {" "}
-                <NavLink to="/">Home</NavLink>
-              </li>
-              <li>
-                {" "}
-                <NavLink to="/Story">Our Story</NavLink>
-              </li>
-              <li>
-                {" "}
-                <NavLink to="/qa">Q&A</NavLink>
-              </li>
-            </ul>
+            <div className={`navElements ${showNavbar && "active"}`}>
+              <ul>
+                <li>
+                  {" "}
+                  <NavLink to="/">Home</NavLink>
+                </li>
+                <li>
+                  {" "}
+                  <NavLink to="/Story">Our Story</NavLink>
+                </li>
+                <li>
+                  {" "}
+                  <NavLink to="/qa">Q&A</NavLink>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
+    </>
   );
 };
 
