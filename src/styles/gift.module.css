@@ -50,7 +50,7 @@
 }
 
 .giftButton:hover{
-    background-color: goldenrod;
+    background-color:  rgb(255, 174, 0);
     box-shadow:  0 0 0 1px #ffffff;
     color: white;
     transition: all 0.3s;

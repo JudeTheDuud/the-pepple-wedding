@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     margin: auto;
-    height: 64rem;
+    height: 56rem;
     padding-top: 8rem;
 }
 
@@ -22,6 +22,9 @@
     display: flex;
     flex-direction: column;
     row-gap: 3rem;
+    
+    top: -8rem;
+    position: relative;
 }
 
 .imgWrapper{
@@ -71,5 +74,7 @@
         font-size: 2.1rem;
     }
     
-    
+    .sec1{
+        padding-bottom: 2rem;
+    }
 }
